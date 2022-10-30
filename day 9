@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+char name[]="hello";
+int i=0;
+clrscr();
+while((i<6))
+{
+printf("c",name[i]);
+i++;
+}
+getch();
+}
