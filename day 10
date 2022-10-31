@@ -1,0 +1,24 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+char username;
+int password;
+clrscr();
+printf("username");
+scanf("%c",&username);
+if(username=='a')
+{
+printf("password");
+scanf("%d",&password);
+if(password==12345)
+{
+printf("login successful");
+}
+}
+else
+{
+printf("user name does not exists, Try again");
+}
+getch();
+}
