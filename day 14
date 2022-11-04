@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a[2][2],i,j,sum=o;
+printf("enter the value of 2*2 ");
+for(i=0;i<3;i++)
+{
+for(j=o;j<3;j++)
+{
+scanf("%d",&a[2][2]);
+sum+=0;
+}
+}
+printf("answer is %d",a[2][2]);
+getch();
+}
+
