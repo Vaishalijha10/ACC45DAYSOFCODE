@@ -1,0 +1,23 @@
+#include<stdio.h>
+#include<conio.h>
+#define SIZE[5]
+void main()
+{
+int arr[1],arr[2],arr[3],i;
+printf("enter %d no. in the array 1 \n",SIZE);
+for(i=0;i<=SIZE-1;i++)
+{
+scanf("%d",&arr1[i]);
+}
+printf("enter %d no. in the array 2\n:");
+for(i=0;i<=SIZE-1;i++)
+{
+scanf("%d",&arr2[i]);
+}
+for(i=0;i<=SIZE-1;i++)
+{
+arr3[i]=arr1[i]+arr2[i];
+printf("sum of %d is %d is %d\n",arri[i],arr2[i],arr3[i]);
+}
+getch();
+}
