@@ -1,0 +1,16 @@
+//sphere surface area=4*pi*r*r
+//volume of sphere=(4/3)*pi*r*r*r
+
+#include<stdio.h>
+#define pi 3.142
+void main()
+{
+float r,area,vol;
+printf("enter radius of sphere:\n");
+scanf("%f",&r);
+area=4*pi*r*r;
+vol=(4/3)*pi*r*r*r;
+printf("\nsphere surface area=%.2f",area);
+printf("\nvolume of sphere=%.2f",vol);
+getch();
+}
