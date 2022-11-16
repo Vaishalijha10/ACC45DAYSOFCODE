@@ -1,0 +1,12 @@
+#include<stdio.h>
+#include<string.h>
+void main()
+{
+char first[30]="",second[30]="";
+int i;
+printf("enter sentence:");
+gets(first);
+strcpy(second,first);
+printf("second string is %s",second);
+getch();
+}
