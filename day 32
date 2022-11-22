@@ -1,0 +1,12 @@
+//use pointers for adding two numbers.
+#include<stdio.h>
+void main()
+{
+int a,b,c;
+int *p=&a,*q=&b;
+printf("enter two no.\n:");
+scanf("%d%d",p,q);
+c=*p+*q;
+printf("%d answer",c);
+getch();
+}
