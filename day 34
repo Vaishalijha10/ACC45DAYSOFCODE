@@ -1,0 +1,23 @@
+#include<stdio.h>
+#include<conio.h>
+int_digitcount(int*);
+main()
+{
+int a,c;
+printf("Enter some numbers:\n");
+scanf(:%d",&a);
+c=digitcount(&a);
+printf("total no. of digit in %d is %d",a,c);
+getch();
+}
+int digitcount(int *p)
+{
+int temp,i=0;
+temp=*p;
+while(temp>0)
+{
+temp=temp/10;
+i++;
+}
+return i;
+}
