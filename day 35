@@ -1,0 +1,22 @@
+#include<stdio.h>
+
+void main()
+{
+char username[15];
+char password[12];
+printf("enter your username:");
+scanf("%c",&username);
+printf("enter your password:");
+scanf("%c",&password);
+if(strcmp(username,"vaishali")==0)
+{
+    if(strcmp(password,"1234")==0)
+    {
+printf("Login successfully");
+}
+}
+else
+{
+printf("oops! wrong password for user doesn't exit");
+}
+}
