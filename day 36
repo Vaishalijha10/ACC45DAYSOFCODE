@@ -1,0 +1,31 @@
+#include<stdio.h>
+#include<conio.h>
+double getdiameter(double radius);
+double getcircumference(double radius);
+double getarea(double radius);
+int main()
+{
+float radius,dia,cir,area;
+clrscr():
+printf("enter the value of circle:\n");
+scanf("%f",&radius);
+dia=getdiameter(radius);
+cir=getcircumference(radius);
+area=getarea(radius);
+printf("dia is %.2f".dia);
+printf("circumference is %.2f",cir);
+printf("area is %.2f",area);
+return 0;
+}
+double getdiameter(double radius)
+{
+return 2*radius;
+}
+double getcircumference(double radius)
+{
+return 2*3.14*radius;
+}
+double getarea(double radius)
+{
+return 3.14*radius*radius;
+}
