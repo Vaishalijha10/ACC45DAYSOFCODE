@@ -1,0 +1,19 @@
+#include<stdio.h>
+#include<conio.h>
+#define SIZE 10
+int main()
+{
+int arr[10],i,*p;
+printf("Enter the %d no:\n",SIZE);
+for(i=0;i<SIZE;i++)
+{
+scanf("%d",p);
+p++;
+}
+for(i=0;i<SIZE;i++)
+{
+printf("value of index %d is %d\n",i,*p);
+p++;
+}
+getch();
+}
