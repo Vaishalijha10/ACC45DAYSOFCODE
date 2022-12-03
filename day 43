@@ -1,0 +1,17 @@
+#include<stdio.h>
+void printNatural(int);
+int main()
+{
+int x;
+printf("enter the range:\n");
+scanf("%d",&x);
+printNatural(x);
+return 0;
+}
+void printNatural(int a)
+{
+if(a==0)
+return;
+printf("%d\t",a);
+printNatural(a-1);
+}
