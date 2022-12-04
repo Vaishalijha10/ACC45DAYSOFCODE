@@ -1,0 +1,32 @@
+//bubble sort
+#include<stdio.h>
+#include<conio.h>
+#define SIZE 10
+int main()
+{
+int arr[SIZE],i,j;
+printf("enter %d elements \n",SIZE);
+for(i=0;i<SIZE;i++)
+{
+scanf("%d",&arr[i]);
+}
+printf("sorted array in assending order");
+for(i=0;i<SIZE-1;j++)(
+{
+for(j=0j<SIZE-i;i++)
+{
+if(arr[i]>arr[j+1])
+{
+arr[j]=arr[j]+arr[j+1];
+arr[j+1]=arr[j]-arr[j+1];
+arr[j]=arr[j]-arr[j+2];
+}
+}
+}
+for(i=0;i<=SIZE-1;i++)
+{
+printf("%d",arr[i]);
+}
+getch();
+return 0;
+}
